@@ -1,0 +1,47 @@
+.southwick-picture-index {
+  float: left;
+  height: 512px;
+  width: 460px;
+}
+
+.southwick-picture-about-me {
+  float: left;
+  display: inline-block;
+  height: 512px;
+  width: 460px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.about-me-section-1 {
+  margin: 32px
+}
+
+.picture-div {
+  min-width: 460px;
+  min-height: 512px;
+}
+
+.row .thumbnail {
+  border:0;
+  box-shadow:0;
+  border-radius:0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.padding-s-l {
+  padding-left: 8px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.list-container {
+}
+
+.list-container .list {
+}
