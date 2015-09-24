@@ -1,16 +1,7 @@
-.southwick-picture-index {
-  float: left;
-  height: 512px;
-  width: 460px;
-}
+@charset "utf-8";
 
-.southwick-picture-about-me {
-  float: left;
-  display: inline-block;
-  height: 512px;
-  width: 460px;
-  margin-left: 32px;
-  margin-right: 32px;
+.southwick-picture-index {
+  display: block;
 }
 
 .about-me-section-1 {
@@ -45,3 +36,22 @@
 
 .list-container .list {
 }
+
+.flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.nav-item {
+}
+
+/*
+ * black #2E2E2E
+ * dark grey #808080
+ * light grey #BFBFBF
+ * white #FFFFFF
+ */
